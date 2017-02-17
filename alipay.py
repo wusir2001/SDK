@@ -2,6 +2,10 @@
 # encoding: utf8
 
 """ 支付宝相关
+@注意点：
+    1.签名的参数如果是unicode，要encode("utf8");
+    2.base64 用base64.b64encode，而非base64.encodestring;
+    3:
 """
 
 import rsa
